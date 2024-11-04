@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="picterminal" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/picterminal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="/lib/x86_64-linux-gnu/libsqlite3.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/picterminal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Categorie.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="DB.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="DB.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="admin.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="admin.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="categorie.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="galerie.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="galerie.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="image.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="image.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="statistique.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="telechargement.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="telechargements.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="utilisateur.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="utilisateur.h">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

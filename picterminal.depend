@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1730631430 source:/home/luxe/Desktop/picterminal/DB.cpp
+	"DB.h"
+	<iostream>
+	<sqlite3.h>
+
+1730631105 /home/luxe/Desktop/picterminal/DB.h
+	<sqlite3.h>
+	<string>
+
+1730741009 source:/home/luxe/Desktop/picterminal/utilisateur.cpp
+	"utilisateur.h"
+	<iostream>
+	<string>
+	"DB.h"
+	"image.h"
+
+1730667734 /home/luxe/Desktop/picterminal/utilisateur.h
+	<string>
+	<sqlite3.h>
+
+1730725343 source:/home/luxe/Desktop/picterminal/main.cpp
+	<iostream>
+	"utilisateur.h"
+	"DB.h"
+	"categorie.h"
+	"admin.h"
+
+1730620312 source:/home/luxe/Desktop/picterminal/galerie.cpp
+
+1730739405 source:/home/luxe/Desktop/picterminal/image.cpp
+	<iostream>
+	"image.h"
+	<string>
+
+1730620338 source:/home/luxe/Desktop/picterminal/telechargement.cpp
+
+1730720092 source:/home/luxe/Desktop/picterminal/Categorie.cpp
+	<iostream>
+	"categorie.h"
+
+1730720131 /home/luxe/Desktop/picterminal/categorie.h
+	<string>
+	<sqlite3.h>
+
+1730741100 /home/luxe/Desktop/picterminal/image.h
+	<string>
+	<sqlite3.h>
+
+1730720056 source:/home/luxe/Desktop/picterminal/admin.cpp
+	"admin.h"
+	"categorie.h"
+	<iostream>
+	"admin.h"
+	"categorie.h"
+	<iostream>
+
+1730664563 /home/luxe/Desktop/picterminal/admin.h
+	<string>
+	<sqlite3.h>
+	"utilisateur.h"
+	"DB.h"
+
